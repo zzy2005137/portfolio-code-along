@@ -7,6 +7,10 @@
     <title>zzy portfolio website</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
   </head>
   <body>
     <main>
@@ -26,6 +30,7 @@
             </ul>
 
             <div class="ham"><i class="fas fa-bars"></i></div>
+
           </div>
         </nav>
 
@@ -306,22 +311,63 @@
           </div>
 
           <div class="grid-2">
-            <div class="column-1 comment">
-              <div class="review-rate">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+            
+            <div class="column-1 comment swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="review-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="review-content text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque deserunt dolorem ratione dolorum tempore delectus quo amet libero omnis. Libero.
+                  </div>
+                  <div class="review-person">
+                    <h3>Matias Butt</h3>
+                    <h5>Photographer, Paris</h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="review-content text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.um tempore delectus quo amet libero omnis. Libero.
+                  </div>
+                  <div class="review-person">
+                    <h3>Person 2</h3>
+                    <h5>Photographer, Paris</h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+  
+                  </div>
+                  <div class="review-content text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque deserunt dolorem ratione dolorum tempore delectus quo amet libero omnis. Libero.
+                  </div>
+                  <div class="review-person">
+                    <h3>Person 3</h3>
+                    <h5>shanghai, China</h5>
+                  </div>
+                </div>
               </div>
-              <div class="review-content text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque deserunt dolorem ratione dolorum tempore delectus quo amet libero omnis. Libero.
-              </div>
-              <div class="review-person">
-                <h3>Matias Butt</h3>
-                <h5>Photographer, Paris</h5>
-              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+              
+              
             </div>
+
 
             <div class="column-2 img">
               <img src="./img/testi.png" alt="">
@@ -502,6 +548,9 @@
           </div>
       </footer>
     </main>
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>

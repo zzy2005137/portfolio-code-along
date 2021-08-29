@@ -582,6 +582,22 @@ section {
   width: 100%;
 }
 
+.swiper {
+  width: 100%;
+  height: 60%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev {
+  opacity: 1;
+}
+
 /* ============= end-testi-style =========== */
 
 /* ==============testi-style================= */
