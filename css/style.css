@@ -223,6 +223,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 3rem;
+  row-gap: 3rem;
 }
 
 .card {
@@ -330,9 +331,6 @@ section {
 }
 
 .works {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  row-gap: 3rem;
   margin-top: 4rem;
 }
 
@@ -342,6 +340,7 @@ section {
   border-radius: 1rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   cursor: pointer;
+  height: 18rem;
 }
 
 .work img {
@@ -909,6 +908,7 @@ footer li {
   .works {
     justify-items: center;
   }
+
   .work {
     height: 18rem;
     width: 80%;
